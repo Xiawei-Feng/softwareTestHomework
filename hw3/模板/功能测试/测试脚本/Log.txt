@@ -1,0 +1,275 @@
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [warn] Base URL is not set. Updating base URL from current window.
+    [info] Test case passed
+    [info] Test suite completed: 1 played, all passed!
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Test suite completed: 1 played, all passed!
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Playing test case Main
+    [info] Executing: |open | / | |
+    [info] Executing: |clickAndWait | link=企业商城 | |
+    [info] Executing: |clickAndWait | link=百草味APP | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | link=品牌介绍 | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Test case passed
+    [info] Playing test case Sub
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | link=热卖单品 | |
+    [info] Executing: |clickAndWait | link=美味中心 | |
+    [info] Executing: |clickAndWait | link=礼金卡 | |
+    [info] Executing: |clickAndWait | link=客服帮助 | |
+    [info] Test case passed
+    [info] Playing test case News
+    [info] Executing: |open | /news/index.html | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | css=p.color-sign1 | |
+    [info] Executing: |clickAndWait | //li[2]/a/p[2] | |
+    [info] Executing: |clickAndWait | //a[contains(@href, '/news/index/cid/5.html')] | |
+    [info] Executing: |clickAndWait | //li[4]/a/p[2] | |
+    [info] Executing: |click | css=div.listInfo > ul > li > a | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank40525
+    [error] Unexpected Exception: TypeError: result is null. 
+    [info] Test case failed
+    [info] Playing test case About
+    [info] Executing: |open | /news/details/id/37.html | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Executing: |click | css=li.card.act | |
+    [error] Element css=li.card.act not found
+    [info] Test case failed
+    [info] Playing test case Bottom
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'百草味APP')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'新闻中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'品牌介绍')])[2] | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'热卖单品')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'美味中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'礼金卡')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'客服帮助')])[2] | |
+    [info] Executing: |clickAndWait | link=517吃货节 | |
+    [info] Executing: |clickAndWait | link=男神来了 | |
+    [info] Executing: |clickAndWait | link=小味公益 | |
+    [info] Executing: |clickAndWait | link=小味快速达 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'关于我们')])[2] | |
+    [info] Executing: |click | link=浙ICP备14038051号-2 | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank33275
+    [error] Unexpected Exception: TypeError: result is null. 
+    [info] Test case failed
+    [info] Test suite completed: 6 played, 3 failed
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Playing test case Main
+    [info] Executing: |open | / | |
+    [info] Executing: |clickAndWait | link=企业商城 | |
+    [info] Executing: |clickAndWait | link=百草味APP | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | link=品牌介绍 | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Test case passed
+    [info] Playing test case Sub
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | link=热卖单品 | |
+    [info] Executing: |clickAndWait | link=美味中心 | |
+    [info] Executing: |clickAndWait | link=礼金卡 | |
+    [info] Executing: |clickAndWait | link=客服帮助 | |
+    [info] Test case passed
+    [info] Playing test case News
+    [info] Executing: |open | /news/index.html | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | css=p.color-sign1 | |
+    [info] Executing: |clickAndWait | //li[2]/a/p[2] | |
+    [info] Executing: |clickAndWait | //a[contains(@href, '/news/index/cid/5.html')] | |
+    [info] Executing: |clickAndWait | //li[4]/a/p[2] | |
+    [info] Executing: |click | css=div.listInfo > ul > li > a | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank13638
+    [info] Test case passed
+    [info] Playing test case About
+    [info] Executing: |open | /news/details/id/37.html | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Executing: |click | css=li.card.act | |
+    [error] Element css=li.card.act not found
+    [info] Test case failed
+    [info] Playing test case Bottom
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'百草味APP')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'新闻中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'品牌介绍')])[2] | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'热卖单品')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'美味中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'礼金卡')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'客服帮助')])[2] | |
+    [info] Executing: |clickAndWait | link=517吃货节 | |
+    [info] Executing: |clickAndWait | link=男神来了 | |
+    [info] Executing: |clickAndWait | link=小味公益 | |
+    [info] Executing: |clickAndWait | link=小味快速达 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'关于我们')])[2] | |
+    [info] Executing: |click | link=浙ICP备14038051号-2 | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank39047
+    [info] Test case passed
+    [info] Test suite completed: 6 played, 1 failed
+    [info] Playing test case About
+    [info] Executing: |open | /news/details/id/37.html | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Executing: |click | css=li.card.act | |
+    [error] Element css=li.card.act not found
+    [info] Test case failed
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Playing test case Main
+    [info] Executing: |open | / | |
+    [info] Executing: |clickAndWait | link=企业商城 | |
+    [info] Executing: |clickAndWait | link=百草味APP | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | link=品牌介绍 | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Test case passed
+    [info] Playing test case Sub
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | link=热卖单品 | |
+    [info] Executing: |clickAndWait | link=美味中心 | |
+    [info] Executing: |clickAndWait | link=礼金卡 | |
+    [info] Executing: |clickAndWait | link=客服帮助 | |
+    [info] Test case passed
+    [info] Playing test case News
+    [info] Executing: |open | /news/index.html | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | css=p.color-sign1 | |
+    [info] Executing: |clickAndWait | //li[2]/a/p[2] | |
+    [info] Executing: |clickAndWait | //a[contains(@href, '/news/index/cid/5.html')] | |
+    [info] Executing: |clickAndWait | //li[4]/a/p[2] | |
+    [info] Executing: |click | css=div.listInfo > ul > li > a | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank73035
+    [info] Test case passed
+    [info] Playing test case About
+    [info] Executing: |open | /news/details/id/37.html | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Executing: |click | css=li.card.act > p | |
+    [error] Element css=li.card.act > p not found
+    [info] Test case failed
+    [info] Playing test case Bottom
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'百草味APP')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'新闻中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'品牌介绍')])[2] | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'热卖单品')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'美味中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'礼金卡')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'客服帮助')])[2] | |
+    [info] Executing: |clickAndWait | link=517吃货节 | |
+    [info] Executing: |clickAndWait | link=男神来了 | |
+    [info] Executing: |clickAndWait | link=小味公益 | |
+    [info] Executing: |clickAndWait | link=小味快速达 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'关于我们')])[2] | |
+    [info] Executing: |click | link=浙ICP备14038051号-2 | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank34175
+    [info] Test case passed
+    [info] Test suite completed: 6 played, 1 failed
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Playing test case Main
+    [info] Executing: |open | / | |
+    [info] Executing: |clickAndWait | link=企业商城 | |
+    [info] Executing: |clickAndWait | link=百草味APP | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | link=品牌介绍 | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Test case passed
+    [info] Playing test case Sub
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | link=热卖单品 | |
+    [info] Executing: |clickAndWait | link=美味中心 | |
+    [info] Executing: |clickAndWait | link=礼金卡 | |
+    [info] Executing: |clickAndWait | link=客服帮助 | |
+    [info] Test case passed
+    [info] Playing test case News
+    [info] Executing: |open | /news/index.html | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | css=p.color-sign1 | |
+    [info] Executing: |clickAndWait | //li[2]/a/p[2] | |
+    [info] Executing: |clickAndWait | //a[contains(@href, '/news/index/cid/5.html')] | |
+    [info] Executing: |clickAndWait | //li[4]/a/p[2] | |
+    [info] Executing: |click | css=div.listInfo > ul > li > a | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank39991
+    [info] Test case passed
+    [info] Playing test case Bottom
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'百草味APP')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'新闻中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'品牌介绍')])[2] | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'热卖单品')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'美味中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'礼金卡')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'客服帮助')])[2] | |
+    [info] Executing: |clickAndWait | link=517吃货节 | |
+    [info] Executing: |clickAndWait | link=男神来了 | |
+    [info] Executing: |clickAndWait | link=小味公益 | |
+    [info] Executing: |clickAndWait | link=小味快速达 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'关于我们')])[2] | |
+    [info] Executing: |click | link=浙ICP备14038051号-2 | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank99816
+    [info] Test case passed
+    [info] Test suite completed: 5 played, all passed!
+    [info] Playing test case Access
+    [info] Executing: |open | / | |
+    [info] Test case passed
+    [info] Playing test case Main
+    [info] Executing: |open | / | |
+    [info] Executing: |clickAndWait | link=企业商城 | |
+    [info] Executing: |clickAndWait | link=百草味APP | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | link=品牌介绍 | |
+    [info] Executing: |clickAndWait | link=关于我们 | |
+    [info] Test case passed
+    [info] Playing test case Sub
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | link=热卖单品 | |
+    [info] Executing: |clickAndWait | link=美味中心 | |
+    [info] Executing: |clickAndWait | link=礼金卡 | |
+    [info] Executing: |clickAndWait | link=客服帮助 | |
+    [info] Test case passed
+    [info] Playing test case News
+    [info] Executing: |open | /news/index.html | |
+    [info] Executing: |clickAndWait | link=新闻中心 | |
+    [info] Executing: |clickAndWait | css=p.color-sign1 | |
+    [info] Executing: |clickAndWait | //li[2]/a/p[2] | |
+    [info] Executing: |clickAndWait | //a[contains(@href, '/news/index/cid/5.html')] | |
+    [info] Executing: |clickAndWait | //li[4]/a/p[2] | |
+    [info] Executing: |click | css=div.listInfo > ul > li > a | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank63686
+    [info] Test case passed
+    [info] Playing test case Bottom
+    [info] Executing: |open | /main/index.html | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'百草味APP')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'新闻中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'品牌介绍')])[2] | |
+    [info] Executing: |clickAndWait | link=团购好礼 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'热卖单品')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'美味中心')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'礼金卡')])[2] | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'客服帮助')])[2] | |
+    [info] Executing: |clickAndWait | link=517吃货节 | |
+    [info] Executing: |clickAndWait | link=男神来了 | |
+    [info] Executing: |clickAndWait | link=小味公益 | |
+    [info] Executing: |clickAndWait | link=小味快速达 | |
+    [info] Executing: |clickAndWait | xpath=(//a[contains(text(),'关于我们')])[2] | |
+    [info] Executing: |click | link=浙ICP备14038051号-2 | |
+    [warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank92858
+    [info] Test case passed
+    [info] Test suite completed: 5 played, all passed! 

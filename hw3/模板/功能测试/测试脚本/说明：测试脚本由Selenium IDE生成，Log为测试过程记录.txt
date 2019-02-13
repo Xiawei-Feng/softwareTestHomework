@@ -1,0 +1,1 @@
+说明：测试脚本由Selenium IDE生成，Log为测试过程记录
