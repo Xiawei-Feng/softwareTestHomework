@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="26" failures="0" name="com.zju.next.nextNdaysTest" time="0.281" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Coder\Java\JDK\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Coder\Java\program\next"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Coder\Java\program\next"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Coder\Java\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JoJo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="net.sourceforge.cobertura.datafile" value="D:\Coder\Java\program\next\target\cobertura\cobertura.ser"/>
+    <property name="classworlds.conf" value="D:\Coder\Java\program\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4532313732877376695.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Coder\Java\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Coder/Java/JDK/bin/../jre/bin/server;D:/Coder/Java/JDK/bin/../jre/bin;D:/Coder/Java/JDK/bin/../jre/lib/amd64;D:\Oracle\program\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Coder\python27;D:\Coder\anaconda;D:\Coder\anaconda\Library\bin;D:\Coder\anaconda\Scripts;D:\Coder\Java\JDK\bin;D:\Coder\Java\JDK\jre\bin;D:\Coder\Go\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Coder\android\ANT\bin;%MAVEN_HOME%\bin;D:\Coder\hadoop\hadoop-3.1.1bin;D:\Coder\Front-end\Nodejs\;D:\Coder\git\Git\bin;D:\Coder\Flutter\flutter\bin;D:\Coder\android\SDK\tools;D:\Coder\android\SDK\platform-tools;C:\Users\JoJo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Coder\Java\maven\apache-maven-3.5.4\bin;C:\Users\JoJo\AppData\Roaming\npm;D:\Coder\Nmap;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\JoJo"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="JoJo"/>
+    <property name="java.class.path" value="D:\Coder\Java\maven\apache-maven-3.5.4\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Coder\Java\JDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs D:\Coder\Java\maven\apache-maven-3.5.4\conf\settings.xml -s D:\Coder\Java\maven\apache-maven-3.5.4\conf\settings.xml cobertura:cobertura"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="D:\Coder\Java\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Coder\Java\JDK\jre\lib\resources.jar;D:\Coder\Java\JDK\jre\lib\rt.jar;D:\Coder\Java\JDK\jre\lib\sunrsasign.jar;D:\Coder\Java\JDK\jre\lib\jsse.jar;D:\Coder\Java\JDK\jre\lib\jce.jar;D:\Coder\Java\JDK\jre\lib\charsets.jar;D:\Coder\Java\JDK\jre\lib\jfr.jar;D:\Coder\Java\JDK\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Coder\Java\maven\apache-maven-3.5.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="D:\Coder\Java\program\next\target\generated-classes\cobertura"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[0]" time="0.215"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[1]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[2]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[3]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[4]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[5]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[6]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[7]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[8]" time="0.001"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[9]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[10]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[11]" time="0.001"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[12]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[13]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[14]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[15]" time="0.001"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[16]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[17]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[18]" time="0.058"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[19]" time="0.001"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[20]" time="0.002"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[21]" time="0.002"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[22]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[23]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[24]" time="0"/>
+  <testcase classname="com.zju.next.nextNdaysTest" name="testAdd[25]" time="0"/>
+</testsuite>
