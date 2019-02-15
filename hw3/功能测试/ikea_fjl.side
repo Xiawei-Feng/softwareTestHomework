@@ -1,0 +1,249 @@
+{
+  "id": "2eb40fb8-de6b-49fc-884f-c77d753b09e4",
+  "version": "2.0",
+  "name": "ikea_fjl",
+  "url": "https://www.ikea.cn",
+  "tests": [{
+    "id": "e08ccd77-a1dd-41a1-ba3d-2f6da4679431",
+    "name": "getProducts",
+    "commands": [{
+      "id": "3e39854a-7413-4dfa-967b-cf66e86aa26f",
+      "comment": "",
+      "command": "open",
+      "target": "/cn/zh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed5f8a02-89b6-4e02-8f30-bb498b8291d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x794",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f504796-cb61-479c-9293-20542dd76047",
+      "comment": "",
+      "command": "click",
+      "target": "css=#lnkMainMenu1Header > span",
+      "targets": [
+        ["css=#lnkMainMenu1Header > span", "css:finder"],
+        ["xpath=//a[@id='lnkMainMenu1Header']/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'所有产品')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4edd132c-3c7a-4e4d-a00f-bc283a881cb4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=花洒",
+      "targets": [
+        ["linkText=花洒", "linkText"],
+        ["css=.txt31", "css:finder"],
+        ["xpath=//a[contains(text(),'花洒')]", "xpath:link"],
+        ["xpath=//div[@id='allProductsContainer']/div[2]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cn/zh/catalog/categories/departments/bathroom/40690/')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'花洒')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9807734c-e5b8-4284-86f2-80446b4773de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,217)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "144343cc-c312-4c53-a426-83cb8fb402ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=imgThmbProduct2",
+      "targets": [
+        ["id=imgThmbProduct2", "id"],
+        ["css=.product:nth-child(1) #imgThmbProduct2", "css:finder"],
+        ["xpath=//img[@id='imgThmbProduct2']", "xpath:attributes"],
+        ["xpath=//div[@id='landingPopup']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5cc88528-e835-4dd1-bc6e-ef13480e9a7a",
+    "name": "searchProducts",
+    "commands": [{
+      "id": "60db8064-4164-4e92-afd7-a84afddf7c78",
+      "comment": "",
+      "command": "open",
+      "target": "/cn/zh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d3dc80e-924d-43ee-8d62-b1ed67936cda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x794",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1b08964-bfc2-4da8-b0dc-33b294e8351e",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=query", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c34f74e-79e9-44bc-96c2-ec3ef377adef",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=query", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "书桌"
+    }, {
+      "id": "be5ca272-45f0-4322-b2bb-7094d18aea85",
+      "comment": "",
+      "command": "click",
+      "target": "css=#lnkSearchBtnHeader input",
+      "targets": [
+        ["css=#lnkSearchBtnHeader input", "css:finder"],
+        ["xpath=//input[@value='搜索']", "xpath:attributes"],
+        ["xpath=//a[@id='lnkSearchBtnHeader']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "419b0456-e161-4029-9195-475af77aaee3",
+    "name": "visitHostPage",
+    "commands": [{
+      "id": "f7f12806-374f-4085-a049-eb21bc419689",
+      "comment": "",
+      "command": "open",
+      "target": "/cn/zh/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d58998cc-d326-4f87-b6a9-d5df735489f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x794",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29cadded-8358-43fc-9a10-b10f0e767d36",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,491)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f929d756-58e2-4e84-9d72-2868ec3ad106",
+      "comment": "",
+      "command": "click",
+      "target": "css=.find-more",
+      "targets": [
+        ["css=.find-more", "css:finder"],
+        ["xpath=//div[@id='2013_hptr_04']/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cd411d1-4ba1-437d-9f33-1934506d5353",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=宜家理念",
+      "targets": [
+        ["linkText=宜家理念", "linkText"],
+        ["css=.linkContainer:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'宜家理念')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ms/zh_CN/this-is-ikea/the-ikea-concept/index.html')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'宜家理念')]", "xpath:innerText"]
+      ],
+      "value": "27,1.125"
+    }, {
+      "id": "c9163f34-2ced-49bb-a2c4-93d1613dfa66",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=宜家理念",
+      "targets": [
+        ["linkText=宜家理念", "linkText"],
+        ["css=.linkContainer:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'宜家理念')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ms/zh_CN/this-is-ikea/the-ikea-concept/index.html')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'宜家理念')]", "xpath:innerText"]
+      ],
+      "value": "27,1.125"
+    }, {
+      "id": "9cf44f35-24b6-4718-9a7c-09376711726d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=宜家理念",
+      "targets": [
+        ["linkText=宜家理念", "linkText"],
+        ["css=.linkContainer:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'宜家理念')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ms/zh_CN/this-is-ikea/the-ikea-concept/index.html')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'宜家理念')]", "xpath:innerText"]
+      ],
+      "value": "27,1.125"
+    }, {
+      "id": "77c4003e-2dcc-40d7-bf56-46d67ca84987",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=宜家理念",
+      "targets": [
+        ["linkText=宜家理念", "linkText"],
+        ["css=.linkContainer:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'宜家理念')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ms/zh_CN/this-is-ikea/the-ikea-concept/index.html')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'宜家理念')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceafb0e0-a53b-4d7f-befd-07e00339a826",
+      "comment": "",
+      "command": "click",
+      "target": "css=.linkContainer:nth-child(3) > a:nth-child(3)",
+      "targets": [
+        ["css=.linkContainer:nth-child(3) > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'民主设计')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/div/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ms/zh_CN/this-is-ikea/democratic-design/index.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c20f894a-cb22-4443-a40c-f4642943c1da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ikea.cn/"],
+  "plugins": []
+}
